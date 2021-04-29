@@ -11,4 +11,4 @@ def ditaa(ditaa_str):
     print(output.stderr.decode('utf-8'))
   else:
     print(output.stdout.decode('utf-8'))
-  Image('tmp.png')
+  return Image('tmp.png')
